@@ -1,0 +1,289 @@
+/*  ///// TESTING ///// */
+
+.testdiv {
+    background-color: #fff000;
+}
+
+
+/*  ///// TESTING OVER ///// */
+
+
+/*  ///// EFFECTS ///// */
+
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+a:hover-focus-active {
+    cursor: pointer;
+}
+
+
+/*  ///// EFFECTS OVER ///// */
+
+body {
+    background-color: #c0c0c0;
+    color: #343A40;
+    margin-top: 8vh;
+}
+
+
+/*  ///// NAVBAR ///// */
+
+.toggleBtn {
+    z-index: 1;
+}
+
+.onclick {
+    margin-bottom: 5px;
+}
+
+nav {
+    border-bottom: solid 3px #343a40;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.navbar-toggler:focus {
+    outline: 1px dotted;
+    outline: 5px auto #b666d2;
+}
+
+.navbar-nav a:hover {
+    background-color: #b666d2;
+    height: 100%;
+}
+
+.navbar-nav a {
+    position: relative;
+}
+
+.navbar-nav a span {
+    color: #343A40;
+}
+
+.navbar-nav a:hover span {
+    color: #fff;
+}
+
+.navbar-nav a:hover .showKid {
+    display: block;
+    position: absolute;
+    background: #b666d2;
+    margin-left: 5.5vw;
+    bottom: 15%;
+}
+
+.showKid {
+    display: none;
+}
+
+.stupidKid {
+    margin-left: 1vw;
+}
+
+
+/*  ///// NAVBAR OVER ///// */
+
+
+/*  ///// BTNS & ICONS ///// */
+
+.aboutBtn {
+    background: none;
+}
+
+.aboutBtn:hover {
+    background-image: url("../images/funnyBtn.png");
+}
+
+.aboutBtn:hover #sillyText {
+    opacity: 0;
+}
+
+.carouselBtn {
+    background: none;
+}
+
+.greyBtn {
+    background-color: rgba(105, 105, 105, 0.8);
+}
+
+.icon {
+    color: white;
+}
+
+.icon:hover {
+    color: #b666d2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer i:hover {
+    color: #b666d2;
+}
+
+
+/*  ///// BTNS & ICON OVER ///// */
+
+
+/*  ///// ABOUT PAGE ///// */
+
+
+/* .aboutTert {
+    background-image: url("../images/dummyUp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+} */
+
+.aboutTert {
+    position: relative;
+}
+
+.dummyUp {
+    height: 85vh;
+    min-width: 100vw;
+    /* height: 85vh; */
+    /* position: absolute; */
+    /* z-index: -1000; */
+}
+
+.aboutDiv {
+    font-size: 1.25rem;
+    /* z-index: 1000; */
+    top: 9.5rem;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    position: absolute;
+    display: flow-root;
+    line-height: 1.25;
+    border: solid #343a40 1px;
+}
+
+.aboutDiv h1 {
+    margin: .25em;
+}
+
+@media (min-width: 576px) {
+    .aboutDiv {
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .aboutDiv {
+        top: 9rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .aboutDiv {
+        top: 14rem;
+    }
+}
+
+
+/*  ///// ABOUT PAGE  OVER///// */
+
+
+/*  ///// COLORADO PAGE ///// */
+
+@media (min-width: 992px) {
+    .coloradoTert {
+        background-image: url("../images/coloradoBG.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.iframe-div {
+    margin: .1rem auto;
+}
+
+.embed-responsive {
+    border: solid .25rem #fff;
+}
+
+
+/*  ///// COLORADO PAGE OVER ///// */
+
+
+/*  ///// TESTING 2 ///// */
+
+
+/*  ///// MEDIA QUERIES ///// */
+
+@media (max-width: 991px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin-bottom: 2.5rem;
+    }
+    body {
+        padding-top: 3.65rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: .95rem 1rem;
+    }
+    .navbar-nav a {
+        position: relative;
+    }
+    .navbar-nav a:hover {
+        background: none;
+    }
+    .navbar-nav a:hover span {
+        color: #b666d2;
+    }
+    /* .navbar-nav a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 125%;
+        bottom: 0%;
+        left: 0%;
+        z-index: -10000;
+        /* background-color: #b666d2; 
+}
+
+/* .navbar-nav a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 125%;
+    top: 0%;
+    left: 0%;
+    z-index: -10000;
+    /* background-color: #b666d2; 
+} */
+    .navbar-brand {
+        margin-right: 1vh;
+    }
+    .stupidKid {
+        margin-left: 0;
+    }
+    .carousel-item img {
+        height: 85vh;
+        object-fit: unset;
+    }
+    .icon-div {
+        padding-bottom: 1.25rem;
+    }
+    .page-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}

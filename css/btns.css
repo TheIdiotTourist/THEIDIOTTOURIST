@@ -1,0 +1,34 @@
+.aboutBtn {
+  background: none;
+}
+
+.aboutBtn:hover {
+  background-image: url("../images/funnyBtn.png");
+}
+
+.aboutBtn:hover #sillyText {
+  opacity: 0;
+}
+
+.carouselBtn {
+  background: none;
+}
+
+.greyBtn {
+  background-color: rgba(105, 105, 105, 0.8);
+}
+
+.icon {
+  color: white;
+}
+
+.icon:hover {
+  color: #b666d2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: #b666d2;
+}
+/*# sourceMappingURL=btns.css.map */
