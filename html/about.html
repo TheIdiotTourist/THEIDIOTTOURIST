@@ -13,47 +13,48 @@
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="../css/normalize.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/idiotStyles.css">
 
     <title>THE IDIOT TOURIST: ABOUT</title>
 </head>
 
 <body class="aboutTert">
-    <!-- <div class="testdiv hide" id="testdiv">TEST DIV</div> -->
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand grow" href="../theidiottourist.html">
-            <img src="../images/navbarLogo.png" width="30" height="30" alt="Lightning Bolt Logo">
-        </a>
-
-        <button class="navbar-toggler onclick toggleBtn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="about.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span class="navSpan">About</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="destinations.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Destinations</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="scotlandMemoir.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Scotland</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="colorado.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Colorado</span></a>
-            </div>
-        </div>
-        <div class="hide stupidKid container-fluid" id="stupidKidDiv">
-            <a class="grow stupidKid" href="../theidiottourist.html">
-                <img src="../images/stupidKid.png" class="img-fluid text-center" width="30" height="30" alt="Stupid Kid Logo">
+    <div class="content">
+        <!-- <div class="testdiv hide" id="testdiv">TEST DIV</div> -->
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <a class="navbar-brand grow d-none d-lg-block" href="../theidiottourist.html">
+                <img src="../images/catchLightning.png" class="logo img-fluid d-none d-lg-block ml-3" alt="Catch Lightning Logo">
             </a>
-        </div>
-    </nav>
-    <!-- CONTENT -->
+            <span type="button" class="onclick d-block d-lg-none mx-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="../images/navbarLogo.png" class="cloud img-fluid d-block d-xl-none" alt="Lightning Bolt Logo">
+            </span>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link text-center d-block d-lg-none grow" id="hoverHide" href="../theidiottourist.html">Home</a>
+                        <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="about.html">About</a>
+                        <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="destinations.html">Destinations</a>
+                        <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="scotlandMemoir.html">Scotland</a>
+                        <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="colorado.html">Colorado</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 ml-3">
+                <img src="../images/stupidKid.png" class="stupidKid img-fluid d-block d-lg-none mx-auto" alt="Stupid Kid Logo">
+            </div>
+        </nav>
 
-    <img class="dummyUp img-fluid d-block mx-auto" src="../images/dummyUp.jpg" alt="The Idiot Tourist Bio Pic">
-    <div class="aboutDiv img-fluid col-sm-6 p-1 rounded">
-        <h1 class="text-center">Who's This Idiot?</h1>
-        <p class="text-center">“The wise man is one who, knows, what he does not know.” <br>― Lao Tzu, Tao Te Ching <br><br>So, approach everything like an idiot.</p>
-        <p class="text-center">Jake Snider is a hobbyist traveler, photographer, videographer & web developer.<br> This is where all those interests coincide.</p>
+        <!-- <img class="dummyUp img-fluid d-block mx-auto" src="../images/dummyUp.jpg" alt="The Idiot Tourist Bio Pic"> -->
+        <div class="aboutDiv p-1 rounded d-block mx-auto">
+            <h1 class="text-center">Who's This Idiot?</h1>
+            <p class="text-center px-2">“The wise know, what they do not know.” <br>― paraphrasing of some historical figure<br></p>
+            <p class="text-center px-2">Jake Snider is The Idiot Tourist because he is aware of how little he knows about the world.</p>
+        </div>
     </div>
 
-    <!-- /CONTENT -->
     <!-- FOOTER -->
-    <footer class="page-footer text-center font-small bg-dark fixed">
+    <footer class="footer page-footer text-center font-small bg-dark">
         <!-- icon div -->
         <div class="icon-div col-12 pt-2">
             <!-- instagram -->

@@ -13,7 +13,7 @@
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="../css/normalize.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/idiotStyles.css">
 
     <title>THE IDIOT TOURIST: DESTINATIONS</title>
 </head>
@@ -21,28 +21,28 @@
 <body>
     <!-- <div class="testdiv hide" id="testdiv">TEST DIV</div> -->
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand grow" href="../theidiottourist.html">
-            <img src="../images/navbarLogo.png" width="30" height="30" alt="Lightning Bolt Logo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+        <a class="navbar-brand grow d-none d-lg-block" href="../theidiottourist.html">
+            <img src="../images/catchLightning.png" class="logo img-fluid d-none d-lg-block ml-3" alt="Catch Lightning Logo">
         </a>
-
-        <button class="navbar-toggler onclick toggleBtn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                        </button>
+        <span type="button" class="onclick d-block d-lg-none mx-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../images/navbarLogo.png" class="cloud img-fluid d-block d-xl-none" alt="Lightning Bolt Logo">
+        </span>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="./about.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span class="navSpan">About</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="./destinations.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Destinations</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="./scotlandMemoir.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Scotland</span></a>
-                <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="./colorado.html"><img src="../images/stupidKid-light.png" id="kidLight" class="showKid d-lg-none" width="30" height="30" alt="Stupid Kid Logo"><span>Colorado</span></a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link text-center d-block d-lg-none grow" id="hoverHide" href="../theidiottourist.html">Home</a>
+                    <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="about.html">About</a>
+                    <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="destinations.html">Destinations</a>
+                    <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="scotlandMemoir.html">Scotland</a>
+                    <a class="nav-item nav-link text-center d-block grow hoverHide" id="hoverHide" href="colorado.html">Colorado</a>
+                </div>
             </div>
         </div>
-        <div class="hide stupidKid container-fluid" id="stupidKidDiv">
-            <a class="grow stupidKid" href="../theidiottourist.html">
-                <img src="../images/stupidKid.png" class="img-fluid text-center" width="30" height="30" alt="Stupid Kid Logo">
-            </a>
+        <div class="col-12 ml-3">
+            <img src="../images/stupidKid.png" class="stupidKid img-fluid d-block d-lg-none mx-auto" alt="Stupid Kid Logo">
         </div>
     </nav>
-
 
     <!-- FOOTER -->
     <footer class="page-footer text-center font-small bg-dark">

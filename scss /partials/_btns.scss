@@ -7,8 +7,12 @@
     background-image: url("../images/funnyBtn.png");
 }
 
-.aboutBtn:hover #sillyText {
-    opacity: 0;
+.aboutBtn {
+    @include hover-focus {
+        #sillyText {
+            opacity: 0;
+        }
+    }
 }
 
 .carouselBtn {

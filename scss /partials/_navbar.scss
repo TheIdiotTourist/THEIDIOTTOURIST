@@ -1,60 +1,36 @@
 //===== NAVBAR =====// 
-.toggleBtn {
-    z-index: 1;
+.logo {
+    max-width: 4rem;
+    max-height: 6rem;
 }
 
-.onclick {
-    margin-bottom: 5px;
+.cloud {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.stupidKid {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 nav {
     border-bottom: solid 3px #343a40;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 10000;
-}
-
-.navbar-toggler:focus {
-    outline: 1px dotted;
-    outline: 5px auto #b666d2;
-}
-
-.navbar-nav a:hover {
-    background-color: #b666d2;
-    height: 100%;
-}
-
-.navbar-nav a {
-    position: relative;
-}
-
-.navbar-nav a span {
-    color: #343a40;
-}
-
-.navbar-nav a:hover span {
-    color: #fff;
-}
-
-.navbar-nav a:hover .showKid {
-    display: block;
-    position: absolute;
-    background: #b666d2;
-    margin-left: 5.5vw;
-    bottom: 15%;
-}
-
-.showKid {
-    display: none;
-}
-
-.stupidKid {
-    margin-left: 1vw;
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    @include hover-focus {
+        @include media-breakpoint-down(md) {
+            color: #fff;
+            background-color: $primaryColor;
+            padding: .25rem;
+            margin: 4.5px;
+        }
+        @include media-breakpoint-up(lg) {
+            color: $primaryColor;
+        }
+    }
 }
 
 //===== NAVBAR OVER =====//
