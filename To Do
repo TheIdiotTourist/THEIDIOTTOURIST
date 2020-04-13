@@ -1,6 +1,19 @@
-FOOTER
+GENERAL
 =====
--experiment with sticky footer... maybe only at certain MQ/on certain pages
+-update all photos: sizing, etc. 1920x1080px 72dpi
+-upload photos to imgur as needed (squoosh first)
+-create favicon - Research!
+-create og image (create this for portfolio site too) 1200x1200
+    <meta property:"og:image" content="img url">
+
+SCOTLAND
+=====
+-
+-PAGES: ADD PHOTOS  1920x1080px
+
+COLORADO
+=====
+-fix bg image
 
 
 NAVBAR
@@ -10,13 +23,8 @@ NAVBAR
 
 HOME
 =====
--Reset carousel height once nav/footer is complete
+-grab max-height of carousel on breakpoint-ws
+-recreate carousel images at proper sizing 
+-run images through squoosh and add to finalIMG Folder or start imgur
 
 
-ABOUT 
-=====
-REVAMP 
-
-GENERAL
-=====
--create favicon

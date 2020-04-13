@@ -12,7 +12,21 @@
     line-height: 1.25;
     border: solid #343a40 3px;
     max-width: 50rem;
-    margin-top: 10rem;
+    @media (max-width: 419px) {
+        margin-top: 6.2rem;
+    }
+    @include media-breakpoint-up(xs) {
+        margin-top: 10rem;
+    }
+    @media (min-width: 614px) {
+        margin-top: 18rem;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-top: 12.75rem;
+    }
+    @media (min-width: 1300px) {
+        margin-top: 12.75rem;
+    }
 }
 
 .aboutDiv h1 {

@@ -1,0 +1,15 @@
+.scotland-main {
+    margin-top: 6.4rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 0rem;
+    }
+}
+
+.scotland-content {
+    background-color: #fff;
+    padding: 1rem 3rem;
+    h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -2,12 +2,17 @@
 .coloradoTert {
     background-image: url("../images/coloradoBG.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-position: top;
 }
 
-// .videoContainer {
-//     margin-top: 6rem;
-// }
+.coloradoTert .videoContainer {
+    margin-top: 7rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 1rem;
+    }
+}
+
 .iframe-div {
     margin: 0.1rem auto;
 }

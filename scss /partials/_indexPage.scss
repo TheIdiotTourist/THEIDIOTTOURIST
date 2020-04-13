@@ -1,0 +1,15 @@
+.carousel-item {
+    @include media-breakpoint-up(lg) {
+        height: calc(100vh - 175px);
+        & img {
+            height: 100%;
+        }
+    }
+}
+
+.carousel {
+    margin-top: 7.7rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 0;
+    }
+}
