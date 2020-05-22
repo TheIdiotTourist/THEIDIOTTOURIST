@@ -1,16 +1,17 @@
 //===== COLORADO PAGE =====//
 .coloradoTert {
-    background-image: url("../images/coloradoBG.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../images/ready/coloradoBG.jpg"), url("../images/ready/coloradoBGinvert.jpg");
+    background-repeat: no-repeat, repeat;
     background-size: auto;
     background-position: top;
 }
 
 .coloradoTert .videoContainer {
-    margin-top: 7rem;
-    @include media-breakpoint-up(lg) {
-        margin-top: 1rem;
-    }
+    margin-top: 8rem;
+}
+
+.coloradoText.col-12 {
+    max-width: 97.5%;
 }
 
 .iframe-div {

@@ -1,41 +1,45 @@
-/*  ///// TESTING ///// */
-body {
-  position: relative;
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #222222;
+  z-index: 1000;
 }
 
-.testdiv {
-  display: block;
-  position: absolute;
-  background-color: red;
-  color: #000;
-  z-index: 100;
-  padding: 2.5rem;
-  max-width: 15rem;
-  max-height: 15rem;
-  border-radius: 50%;
-  top: 20%;
-  left: 43.5%;
+#loader {
+  z-index: 1001;
 }
 
-@media (min-width: 768px) {
-  .testdiv {
-    background-color: teal;
-  }
+h1 {
+  color: #FFF;
 }
 
-@media (max-width: 1199.98px) {
-  .testdiv {
-    background-color: orange;
-  }
+#loader-wrapper .loader-section.section-left {
+  left: 0;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .testdiv {
-    background-color: blue;
-  }
+#loader-wrapper .loader-section.section-right {
+  right: 0;
 }
 
-/*  ///// TESTING OVER ///// */
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+  -webkit-transform: translateX(-100%);
+  /* Chrome, Opera 15+, Safari 3.1+ */
+  /* IE 9 */
+  transform: translateX(-100%);
+  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+  -webkit-transform: translateX(100%);
+  /* Chrome, Opera 15+, Safari 3.1+ */
+  /* IE 9 */
+  transform: translateX(100%);
+  /* Firefox 16+, IE 10+, Opera */
+}
+
 .grow {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -51,8 +55,21 @@ a:hover-focus-active {
 }
 
 body {
-  background-color: #c0c0c0;
+  background-color: #fff;
   color: #222;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(181, 101, 210, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(181, 101, 210, 0.25);
 }
 
 .carousel-control-next,
@@ -79,36 +96,38 @@ nav {
   border-bottom: solid 3px #343a40;
 }
 
-nav.row {
-  margin-right: 0 !important;
+nav .iconDiv a:hover .icon, nav .iconDiv a:focus .icon {
+  color: #b666d2;
+}
+
+nav .icon {
+  color: #333;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #333;
 }
 
-@media (max-width: 991.98px) {
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #b666d2;
+}
+
+@media (max-width: 1199.98px) {
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #fff;
-    background-color: #b666d2;
     padding: .25rem;
     margin: 4.5px;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #b666d2;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .fixy {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
   }
 }
 
@@ -200,84 +219,83 @@ footer i:hover {
   color: #b666d2;
 }
 
+.idiotCarousel {
+  margin-top: 7.25rem;
+}
+
 @media (min-width: 992px) {
   .carousel-item {
-    height: calc(100vh - 175px);
+    height: calc(100vh - 147px);
   }
   .carousel-item img {
     height: 100%;
   }
 }
 
-.carousel {
-  margin-top: 7.7rem;
+@media (max-width: 1199.98px) {
+  .homePage #footerDiv .fixed-bottom {
+    position: initial;
+  }
 }
 
-@media (min-width: 992px) {
-  .carousel {
-    margin-top: 0;
+@media (max-width: 767.98px) {
+  .carousel-caption {
+    bottom: -10px;
   }
 }
 
 .aboutTert {
-  background-image: url("../images/dummyUp.jpg");
+  background-image: url("../images/ready/aboutBG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
+  background-position: right;
+  position: relative;
 }
 
-.aboutDiv {
+@media (min-width: 768px) {
+  .aboutTert {
+    background-position: center;
+  }
+}
+
+.aboutTert .content {
+  height: 100vh;
+}
+
+.aboutTert .aboutDiv {
   font-size: 1.25rem;
   background-color: rgba(255, 255, 255, 0.8);
   line-height: 1.25;
   border: solid #343a40 3px;
-  max-width: 50rem;
-  margin-top: 10rem;
+  max-width: 45rem;
+  position: absolute;
+  bottom: 15%;
 }
 
-@media (max-width: 419px) {
-  .aboutDiv {
-    margin-top: 6.2rem;
+@media (min-width: 638px) {
+  .aboutTert .aboutDiv {
+    left: 10%;
+    right: 10%;
   }
 }
 
-@media (min-width: 614px) {
-  .aboutDiv {
-    margin-top: 18rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .aboutDiv {
-    margin-top: 12.75rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .aboutDiv {
-    margin-top: 12.75rem;
-  }
-}
-
-.aboutDiv h1 {
+.aboutTert .aboutDiv h1 {
   margin: 0.25em;
 }
 
 .coloradoTert {
-  background-image: url("../images/coloradoBG.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../images/ready/coloradoBG.jpg"), url("../images/ready/coloradoBGinvert.jpg");
+  background-repeat: no-repeat, repeat;
   background-size: auto;
   background-position: top;
 }
 
 .coloradoTert .videoContainer {
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
-@media (min-width: 992px) {
-  .coloradoTert .videoContainer {
-    margin-top: 1rem;
-  }
+.coloradoText.col-12 {
+  max-width: 97.5%;
 }
 
 .iframe-div {
@@ -289,13 +307,8 @@ footer i:hover {
 }
 
 .scotland-main {
-  margin-top: 6.4rem;
-}
-
-@media (min-width: 992px) {
-  .scotland-main {
-    margin-top: 0rem;
-  }
+  margin-top: 7rem;
+  min-width: 100%;
 }
 
 .scotland-content {
@@ -306,5 +319,38 @@ footer i:hover {
 .scotland-content h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.scotland-content .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dayToggle {
+  z-index: 1500;
+  border: 2px solid #c0c0c0;
+}
+
+.scotlandNav {
+  width: 126.3px;
+  position: fixed;
+  z-index: 1400;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 2.35rem;
+  padding: .5rem;
+  background-color: rgba(52, 58, 64, 0.9);
+}
+
+.scotlandNav a {
+  color: #fff;
+}
+
+.scotlandNav a:hover, .scotlandNav a:focus {
+  color: #b666d2;
+}
+
+button.fixed-bottom {
+  left: initial;
 }
 /*# sourceMappingURL=idiotStyles.css.map */

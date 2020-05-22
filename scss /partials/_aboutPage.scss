@@ -1,36 +1,49 @@
-//===== ABOUT PAGE =====//
-.aboutTert {
-    background-image: url("../images/dummyUp.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-}
-
-.aboutDiv {
-    font-size: 1.25rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 1.25;
-    border: solid #343a40 3px;
-    max-width: 50rem;
-    @media (max-width: 419px) {
-        margin-top: 6.2rem;
+    //===== ABOUT PAGE =====//
+    .aboutTert {
+        background-image: url("../images/ready/aboutBG.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+        @include media-breakpoint-up(md) {
+            background-position: center;
+        }
+        .content {
+            height: 100vh;
+        }
+        .aboutDiv {
+            font-size: 1.25rem;
+            background-color: rgba(255, 255, 255, 0.8);
+            line-height: 1.25;
+            border: solid #343a40 3px;
+            max-width: 45rem;
+            position: absolute;
+            bottom: 15%;
+            @media (min-width: 638px) {
+                left: 10%;
+                right: 10%;
+            }
+            // margin-top: 8rem;
+            // @include media-breakpoint-up(xs) {
+            //     margin-top: 8rem;
+            // }
+            // @media (max-width: 419px) {
+            //     margin-top: 6.2rem;
+            // }
+            // @include media-breakpoint-up(xs) {
+            //     margin-top: 12rem;
+            // }
+            // @media (min-width: 614px) {
+            //     margin-top: 18rem;
+            // }
+            // @include media-breakpoint-up(lg) {
+            //     margin-top: 14rem;
+            // }
+            // @media (min-width: 1300px) {
+            //     margin-top: 25rem;
+            // }
+        }
+        .aboutDiv h1 {
+            margin: 0.25em;
+        }
     }
-    @include media-breakpoint-up(xs) {
-        margin-top: 10rem;
-    }
-    @media (min-width: 614px) {
-        margin-top: 18rem;
-    }
-    @include media-breakpoint-up(lg) {
-        margin-top: 12.75rem;
-    }
-    @media (min-width: 1300px) {
-        margin-top: 12.75rem;
-    }
-}
-
-.aboutDiv h1 {
-    margin: 0.25em;
-}
-
-//===== ABOUT PAGE END =====//

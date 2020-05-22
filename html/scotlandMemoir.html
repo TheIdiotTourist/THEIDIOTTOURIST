@@ -16,13 +16,16 @@
 
         <div class="scotland-main">
             <!-- HEADER -->
-            <img src="../images/aboutSlide.jpg" class="img-fluid d-block w-100" alt="Main Image">
+            <div class="row">
+                <img src="../images/ready/memoirHeader.jpg" class="header-img img-fluid d-block" alt="Main Image">
+            </div>
             <!-- /HEADER -->
-            <div class="scotland-content">
+            <div class="scotland-content row">
                 <!-- AUTHOR'S NOTE -->
                 <div id="authNote"></div>
                 <!-- /AUTHOR'S NOTES -->
                 <!-- DAY 1 -->
+                <div id="day1Load"></div>
                 <div id="day1"></div>
                 <!-- /DAY 1 -->
                 <!-- DAY 2 -->
@@ -61,11 +64,17 @@
                 <!-- DAY 13 -->
                 <div id="day13"></div>
                 <!-- /DAY 13 -->
+                <!-- scotlandNav -->
+                <!-- <button class="btn dayToggle fixed-bottom bg-dark text-light mb-2" type="button" data-toggle="collapse" aria-expanded="true" data-target="#scotlandNav" aria-controls="scotlandNav">
+                                    CHOOSE DAY
+                                </button>
+                <div id="scotlandNav"></div> -->
+                <!-- /scotlandNav -->
             </div>
         </div>
     </div>
     <!-- FOOTER -->
-    <div id="footerDiv"></div>
+    <div id="footerDiv" class="fixed-bottom"></div>
     <!-- /FOOTER -->
     <!-- FOOTER SCRIPTS -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -74,10 +83,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- /FOOTER SCRIPTS -->
     <!-- CUSTOM JS -->
     <script src="../scripts/app.js"></script>
     <script src="../scripts/scotlandContent.js"></script>
+    <!-- /FOOTER SCRIPTS -->
 </body>
 
 </html

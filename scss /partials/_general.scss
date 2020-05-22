@@ -3,6 +3,20 @@ body {
     color: $body-color;
 }
 
+a {
+    @include hover-focus {
+        text-decoration: none;
+    }
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(181, 101, 210, .25)
+}
+
 //HOMEPAGE 
 .carousel-control-next,
 .carousel-control-prev {

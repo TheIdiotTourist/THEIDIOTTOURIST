@@ -1,30 +1,52 @@
+ebay Order number: 24-05082-50052
+best buy #BBY01-806030410187
+
 GENERAL
 =====
--update all photos: sizing, etc. 1920x1080px 72dpi
--upload photos to imgur as needed (squoosh first)
+
+    -Homepage:
+    -update nav/footer
+    -update destinations pane
+    -htaccess creation
+    -remove file extensions
+    -create a load screen
+
+    -Scotland:
+    -mystery margin right on scotland body/header img
+        - DAY - OTHER PHOTOS
+        - PHOTO GALLERY
+
+    -Colorado 
+        - Create Photos w/ Watermark 
+        - PHOTO GALLERY
+
+
+-RECREATE destinations 
 -create favicon - Research!
 -create og image (create this for portfolio site too) 1200x1200
     <meta property:"og:image" content="img url">
 
+
 SCOTLAND
 =====
--
--PAGES: ADD PHOTOS  1920x1080px
+-edit add photo gallery page
+
 
 COLORADO
 =====
--fix bg image
+-edit add photo gallery page
 
 
-NAVBAR
+PHOTO NOTES
 ======
--create animation for cloud logo (md-down)
+1920x1080px 72dpi 
+or 
+2560 x 1707 –1.5 ratio– Burberry
+
+2765 x 1011 and above -> better to do just 3000 x1800?
+
+1980x400px for header-img
 
 
-HOME
-=====
--grab max-height of carousel on breakpoint-ws
--recreate carousel images at proper sizing 
--run images through squoosh and add to finalIMG Folder or start imgur
 
 

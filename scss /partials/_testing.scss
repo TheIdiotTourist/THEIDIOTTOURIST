@@ -1,52 +1,40 @@
-/*  ///// TESTING ///// */
-
-body {
-    position: relative;
-}
-
-.testdiv {
-    display: block;
-    position: absolute;
-    background-color: $testColor;
-    color: #000;
-    z-index: 100;
-    padding: 2.5rem;
-    max-width: 15rem;
-    max-height: 15rem;
-    border-radius: 50%;
-    top: 20%;
-    left: 43.5%;
-    @include media-breakpoint-up(md) {
-        background-color: $testColorSecondary;
-    }
-    @include media-breakpoint-down(lg) {
-        background-color: orange;
-    }
-    @include media-breakpoint-only(md) {
-        background-color: blue;
-    }
-}
-
-// .carousel-item {
-//     height: 100vh;
-//     & img {
-//         height: 100%;
-//     }
-// }
-// @include media-breakpoint-up(xs) { ... }
-// @include media-breakpoint-up(sm) { ... }
-// @include media-breakpoint-up(md) { ... }
-// @include media-breakpoint-up(lg) { ... }
-// @include media-breakpoint-up(xl) { ... }
-// @include media-breakpoint-down(xs) { ... }
-// @include media-breakpoint-down(sm) { ... }
-// @include media-breakpoint-down(md) { ... }
-// @include media-breakpoint-down(lg) { ... }
-// @include media-breakpoint-only(xs) { ... }
-// @include media-breakpoint-only(sm) { ... }
-// @include media-breakpoint-only(md) { ... }
-// @include media-breakpoint-only(lg) { ... }
-// @include media-breakpoint-only(xl) { ... }
-// @include media-breakpoint-between(md, xl) { ... }
-
-/*  ///// TESTING OVER ///// */
+    // /*  ///// TESTING ///// */
+    // BOOTSTRAP BREAKPOINTS
+    // // @include media-breakpoint-up(xs) { ... }
+    // // @include media-breakpoint-up(sm) { ... }
+    // // @include media-breakpoint-up(md) { ... }
+    // // @include media-breakpoint-up(lg) { ... }
+    // // @include media-breakpoint-up(xl) { ... }
+    // // @include media-breakpoint-down(xs) { ... }
+    // // @include media-breakpoint-down(sm) { ... }
+    // // @include media-breakpoint-down(md) { ... }
+    // // @include media-breakpoint-down(lg) { ... }
+    // // @include media-breakpoint-only(xs) { ... }
+    // // @include media-breakpoint-only(sm) { ... }
+    // // @include media-breakpoint-only(md) { ... }
+    // // @include media-breakpoint-only(lg) { ... }
+    // // @include media-breakpoint-only(xl) { ... }
+    // // @include media-breakpoint-between(md, xl) { ... }
+    // .testdiv {
+    //     display: block;
+    //     position: absolute;
+    //     background-color: $testColor;
+    //     color: #000;
+    //     z-index: 100;
+    //     padding: 2.5rem;
+    //     max-width: 15rem;
+    //     max-height: 15rem;
+    //     border-radius: 50%;
+    //     top: 20%;
+    //     left: 43.5%;
+    //     @include media-breakpoint-up(md) {
+    //         background-color: $testColorSecondary;
+    //     }
+    //     @include media-breakpoint-down(lg) {
+    //         background-color: orange;
+    //     }
+    //     @include media-breakpoint-only(md) {
+    //         background-color: blue;
+    //     }
+    // }
+    s // /*  ///// TESTING OVER ///// */

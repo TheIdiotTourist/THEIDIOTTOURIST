@@ -1,15 +1,24 @@
-.carousel-item {
-    @include media-breakpoint-up(lg) {
-        height: calc(100vh - 175px);
-        & img {
-            height: 100%;
+    .idiotCarousel {
+        margin-top: 7.25rem;
+    }
+    
+    .carousel-item {
+        @include media-breakpoint-up(lg) {
+            height: calc(100vh - 147px);
+            & img {
+                height: 100%;
+            }
         }
     }
-}
-
-.carousel {
-    margin-top: 7.7rem;
-    @include media-breakpoint-up(lg) {
-        margin-top: 0;
+    
+    .homePage #footerDiv .fixed-bottom {
+        @include media-breakpoint-down(lg) {
+            position: initial;
+        }
     }
-}
+    
+    .carousel-caption {
+        @include media-breakpoint-down(sm) {
+            bottom: -10px;
+        }
+    }

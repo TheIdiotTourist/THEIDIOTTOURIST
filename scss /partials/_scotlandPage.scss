@@ -1,8 +1,6 @@
 .scotland-main {
-    margin-top: 6.4rem;
-    @include media-breakpoint-up(lg) {
-        margin-top: 0rem;
-    }
+    margin-top: 7rem;
+    min-width: 100%;
 }
 
 .scotland-content {
@@ -12,4 +10,35 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.dayToggle {
+    z-index: 1500;
+    border: 2px solid #c0c0c0;
+}
+
+.scotlandNav {
+    // height: 100%;
+    width: 126.3px;
+    position: fixed;
+    z-index: 1400;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 2.35rem;
+    padding: .5rem;
+    background-color: rgba(52, 58, 64, 0.9);
+    a {
+        color: #fff;
+        @include hover-focus {
+            color: $primaryColor;
+        }
+    }
+}
+
+button.fixed-bottom {
+    left: initial;
 }

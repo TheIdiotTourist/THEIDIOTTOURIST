@@ -16,34 +16,36 @@
 
 nav {
     border-bottom: solid 3px #343a40;
-    &.row {
-        //For Sticky Footer Purposes
-        margin-right: 0 !important;
+    .iconDiv {
+        a {
+            @include hover-focus {
+                .icon {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .icon {
+        color: $navColor;
+    }
+}
+
+.navbar-expand-lg {
+    @include media-breakpoint-up(lg) {
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: center;
     }
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #333;
+    color: $navColor;
     @include hover-focus {
-        @include media-breakpoint-down(md) {
-            color: #fff;
-            background-color: $primaryColor;
+        color: $primaryColor;
+        @include media-breakpoint-down(lg) {
             padding: .25rem;
             margin: 4.5px;
         }
-        @include media-breakpoint-up(lg) {
-            color: $primaryColor;
-        }
-    }
-}
-
-.fixy {
-    @include media-breakpoint-down(md) {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
     }
 }
 
