@@ -1,31 +1,29 @@
 ebay Order number: 24-05082-50052
 best buy #BBY01-806030410187
+Zhangjiajie National Forest China 
 
 GENERAL
 =====
+-update metadata
+-make scotland header 2000px wide
+-link favicon -196x196px
+-htaccess
+-recreate scroll to: navbar
+-create load screen
+-create photo gallery page
+
 
     -Homepage:
-    -update nav/footer
-    -update destinations pane
-    -htaccess creation
-    -remove file extensions
+    -htaccess troubleshooting
     -create a load screen
 
     -Scotland:
-    -mystery margin right on scotland body/header img
         - DAY - OTHER PHOTOS
         - PHOTO GALLERY
 
     -Colorado 
         - Create Photos w/ Watermark 
         - PHOTO GALLERY
-
-
--RECREATE destinations 
--create favicon - Research!
--create og image (create this for portfolio site too) 1200x1200
-    <meta property:"og:image" content="img url">
-
 
 SCOTLAND
 =====
@@ -36,6 +34,21 @@ COLORADO
 =====
 -edit add photo gallery page
 
+=====
+NOTES
+===== 
+
+.OG IMAGE NOTES
+=====
+https://code.dcs-mvc.com/og-metas
+<!-- Specify which image to use when sharing page. -->
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+
+<!-- Add if you want to modify the default title, description or URL for social media sharing. -->
+    <meta property="og:title" content="THE IDIOT TOURIST">
+    <meta property="og:description" content="A Fool For Travel">
+    <meta property="og:url" content="#">
 
 PHOTO NOTES
 ======
