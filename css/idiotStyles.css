@@ -182,7 +182,13 @@ footer i:hover {
 }
 
 .idiotCarousel {
-  margin-top: 5.89rem;
+  margin-top: 7.1rem;
+}
+
+@media (max-width: 1199.98px) {
+  .idiotCarousel {
+    margin-top: 5.89rem;
+  }
 }
 
 @media (min-width: 992px) {
