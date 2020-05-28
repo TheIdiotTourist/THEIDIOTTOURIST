@@ -1,7 +1,7 @@
     .idiotCarousel {
-        margin-top: 7.1rem;
-        @include media-breakpoint-down(lg) {
-            margin-top: 5.89rem;
+        margin-top: 5.89rem;
+        @include media-breakpoint-up(lg) {
+            margin-top: 7.1rem;
         }
     }
     
