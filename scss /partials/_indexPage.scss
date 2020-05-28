@@ -15,7 +15,7 @@
     }
     
     .homePage #footerDiv .fixed-bottom {
-        @include media-breakpoint-down(lg) {
+        @include media-breakpoint-down(xl) {
             position: initial;
         }
     }
