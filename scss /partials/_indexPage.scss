@@ -6,7 +6,7 @@
     }
     
     .carousel-item {
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             height: calc(100vh - 147px);
             & img {
                 height: 100%;
