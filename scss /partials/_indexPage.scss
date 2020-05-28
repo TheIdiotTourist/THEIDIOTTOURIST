@@ -21,7 +21,7 @@
     }
     
     .homePage #footerDiv .fixed-bottom {
-        @include media-breakpoint-down(xl) {
+        @media (min-width: 1024px) {
             position: initial;
         }
     }
