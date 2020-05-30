@@ -182,16 +182,10 @@ footer i:hover {
 }
 
 .idiotCarousel {
-  margin-top: 7.1rem;
+  margin-top: 7rem;
 }
 
-@media (max-width: 1199.98px) {
-  .idiotCarousel {
-    margin-top: 5.89rem;
-  }
-}
-
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .carousel-item {
     height: calc(100vh - 147px);
   }
@@ -200,7 +194,16 @@ footer i:hover {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (min-width: 1024px) {
+  .carousel-item {
+    height: initial;
+  }
+  .carousel-item img {
+    height: initial;
+  }
+}
+
+@media (min-width: 992px) {
   .homePage #footerDiv .fixed-bottom {
     position: initial;
   }
