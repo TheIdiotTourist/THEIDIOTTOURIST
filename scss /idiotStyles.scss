@@ -2,6 +2,7 @@
 @import 'bootstrap/scss/functions.scss',
 'bootstrap/scss/mixins.scss',
 'bootstrap/scss/mixins/breakpoints.scss',
+'bootstrap/scss/variables.scss',
 'partials/_customVariables.scss',
 'partials/_customMixins.scss',
 'partials/testing.scss',
@@ -13,4 +14,5 @@
 'partials/indexPage.scss',
 'partials/aboutPage.scss',
 'partials/coloradoPage.scss',
-'partials/scotlandPage.scss';
+'partials/scotlandPage.scss',
+'bootstrap/scss/bootstrap.scss';
