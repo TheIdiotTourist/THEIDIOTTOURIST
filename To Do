@@ -4,10 +4,8 @@ Zhangjiajie National Forest China
 
 GENERAL
 =====
--Update OG:Data for tert pages specifics -Scotland
--remove Memoir from filepath
--update all filepaths to scotland /index nav/tert nav/ carousel
--make scotland header 2000px wide
+
+-fix day 2
 -htaccess
 -recreate scroll to: navbar
 -create load screen
