@@ -28,6 +28,9 @@ nav {
     .icon {
         color: $navColor;
     }
+    .navbar .container {
+        max-width: 100%;
+    }
 }
 
 .navbar-expand-lg {

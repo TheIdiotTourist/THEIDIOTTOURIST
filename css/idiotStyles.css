@@ -66,6 +66,10 @@ nav .icon {
   color: #333;
 }
 
+nav .navbar .container {
+  max-width: 100%;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     -ms-flex-flow: row wrap;
