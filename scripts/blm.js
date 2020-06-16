@@ -14,5 +14,5 @@ $(document).ready(function() {
     //     $('#day11').load("../html/scotland/scotlandDay11.html"),
     //     $('#day12').load("../html/scotland/scotlandDay12.html"),
     //     $('#day13').load("../html/scotland/scotlandDay13.html"),
-    $('#genRes').load("/html/partials/blm-genRes.html");
+    $('#genRes').load("html/PARTIALS/blm-genRes.html");
 });
