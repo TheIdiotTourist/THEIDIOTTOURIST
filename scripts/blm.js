@@ -12,7 +12,7 @@ $(document).ready(function() {
     //     $('#day9').load("../html/scotland/scotlandDay9.html"),
     //     $('#day10').load("../html/scotland/scotlandDay10.html"),
     //     $('#day11').load("../html/scotland/scotlandDay11.html"),
-    //     $('#day12').load("../html/scotland/scotlandDay12.html"),
-    $('#ctaLou').load("html/PARTIALS/blm-Louisville.html"),
+    $('#donate').load("html/PARTIALS/blm-donate.html"),
+        $('#ctaLou').load("html/PARTIALS/blm-Louisville.html"),
         $('#genRes').load("html/PARTIALS/blm-genRes.html");
 });
