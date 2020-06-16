@@ -10,8 +10,8 @@ $(document).ready(function() {
     //     $('#day7').load("../html/scotland/scotlandDay7.html"),
     //     $('#day8').load("../html/scotland/scotlandDay8.html"),
     //     $('#day9').load("../html/scotland/scotlandDay9.html"),
-    //     $('#day10').load("../html/scotland/scotlandDay10.html"),
-    $('#petitions').load("html/PARTIALS/blm-petitions.html"),
+    $('#contacts').load("html/PARTIALS/blm-contacts.html"),
+        $('#petitions').load("html/PARTIALS/blm-petitions.html"),
         $('#donate').load("html/PARTIALS/blm-donate.html"),
         $('#ctaLou').load("html/PARTIALS/blm-Louisville.html"),
         $('#genRes').load("html/PARTIALS/blm-genRes.html");
