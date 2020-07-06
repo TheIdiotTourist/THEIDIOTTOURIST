@@ -52,8 +52,6 @@ button.fixed-bottom {
         max-height: 447.02px;
     }
     @include media-breakpoint-only(xl) {
-        &.scottMon {
-            max-height: 525.09px;
-        }
+        max-height: 525.09px;
     }
 }
