@@ -42,3 +42,17 @@
 button.fixed-bottom {
     left: initial;
 }
+
+// PHOTOS
+.nelsonMon,
+.scottMon {
+    @include media-breakpoint-only(sm) {
+        max-height: 319.3px;
+    }
+    @include media-breakpoint-only(md) {
+        max-height: 447.02px;
+    }
+    @include media-breakpoint-only(xl) {
+        max-height: 525.09px;
+    }
+}
