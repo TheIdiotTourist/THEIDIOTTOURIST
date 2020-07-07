@@ -45,6 +45,7 @@ button.fixed-bottom {
 
 // PHOTOS
 .nelsonMon {
+    border: solid 5px orange;
     @include media-breakpoint-up(sm) {
         max-height: 319.3px;
         border: solid 3px green;
